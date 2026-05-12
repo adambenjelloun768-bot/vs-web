@@ -5,10 +5,35 @@ header {
     text-align: center;
 }
 nav {
-    background-color: #444;
+    background-color: #333;
     color: white;
-    padding: 10px;
+    padding: 15px 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #555;
+    color: #ffd700;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a:active {
+    transform: translateY(0);
 }   
 main {
     background-color: #333;
