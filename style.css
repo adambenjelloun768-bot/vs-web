@@ -34,7 +34,7 @@ nav a:hover {
 
 nav a:active {
     transform: translateY(0);
-}   
+}
 main {
     background-color: #333;
     color: white;
